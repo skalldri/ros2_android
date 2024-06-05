@@ -13,8 +13,61 @@
   <buildtool_depend>rosidl_generator_java</buildtool_depend>
 
   <build_depend>rcljava</build_depend>
+  <build_depend>rcljava_common</build_depend>
 
   <exec_depend>rcljava</exec_depend>
+  <build_depend>rcljava_common</build_depend>
+
+  <build_depend>action_msgs</build_depend>
+  <exec_depend>action_msgs</exec_depend>
+
+  <build_depend>actionlib_msgs</build_depend>
+  <exec_depend>actionlib_msgs</exec_depend>
+
+  <build_depend>diagnostic_msgs</build_depend>
+  <exec_depend>diagnostic_msgs</exec_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+
+  <build_depend>lifecycle_msgs</build_depend>
+  <exec_depend>lifecycle_msgs</exec_depend>
+
+  <build_depend>nav_msgs</build_depend>
+  <exec_depend>nav_msgs</exec_depend>
+
+  <build_depend>rosgraph_msgs</build_depend>
+  <exec_depend>rosgraph_msgs</exec_depend>
+
+  <build_depend>sensor_msgs</build_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <build_depend>sensor_msgs_py</build_depend>
+  <exec_depend>sensor_msgs_py</exec_depend>
+
+  <build_depend>shape_msgs</build_depend>
+  <exec_depend>shape_msgs</exec_depend>
+
+  <build_depend>statistics_msgs</build_depend>
+  <exec_depend>statistics_msgs</exec_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <build_depend>stereo_msgs</build_depend>
+  <exec_depend>stereo_msgs</exec_depend>
+
+  <build_depend>test_msgs</build_depend>
+  <exec_depend>test_msgs</exec_depend>
+
+  <build_depend>trajectory_msgs</build_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+
+  <build_depend>unique_identifier_msgs</build_depend>
+  <exec_depend>unique_identifier_msgs</exec_depend>
+
+  <build_depend>visualization_msgs</build_depend>
+  <exec_depend>visualization_msgs</exec_depend>
 
   <export>
     <build_type>ament_gradle</build_type>
