@@ -14,9 +14,6 @@ buildscript {
   dependencies {
     classpath 'com.android.tools.build:gradle:8.4.1'
     
-    // classpath 'org.ros2.tools.gradle:0.7.2'
-    // classpath files('/home/salldritt/workspace/ament_gradle_plugin/build/libs/ament-0.7.1.jar')
-
     // !!! This is a nasty hack !!!
     // But I can't figure out a better way to do this...
     classpath files('../ament_gradle_plugin/build/libs/ament_gradle_plugin-0.7.2.jar')
