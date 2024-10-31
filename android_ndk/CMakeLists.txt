@@ -28,10 +28,11 @@ set(_ANDROID_SDKMANAGER ${_ANDROID_SDK_CMDLINE_TOOLS_DIR}/bin/sdkmanager)
 file(MAKE_DIRECTORY ${_ANDROID_SDK_CMDLINE_TOOLS_DIR})
 file(COPY ${android_ndk_SOURCE_DIR}/ DESTINATION ${_ANDROID_SDK_CMDLINE_TOOLS_DIR})
 
+# Install the required Android SDK / NDK packages
 execute_process(
     COMMAND bash -c "yes | ${_ANDROID_SDKMANAGER} \"build-tools;34.0.0\" \"ndk;26.3.11579264\" \"platform-tools\" \"platforms;android-22\""
 )
 
-install(DIRECTORY ${_ANDROID_SDK_DIR}/ DESTINATION android-sdk)
+install(DIRECTORY ${_ANDROID_SDK_DIR}/ DESTINATION android-sdk USE_SOURCE_PERMISSIONS)
 
 ament_package()
