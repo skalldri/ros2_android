@@ -36,6 +36,8 @@ targetCompatibility = JavaVersion.VERSION_1_8
 android {
   namespace "org.ros2.android"
   compileSdkVersion 22
+  ndkVersion "26.3.11579264"
+  
   defaultConfig {
     minSdkVersion 22
     targetSdkVersion 22
