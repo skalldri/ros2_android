@@ -1,0 +1,28 @@
+{
+    "names": {
+        "rcl": {
+            "cmake-args": [ "-DBUILD_TESTING=OFF" ]
+        },
+        "rcl_yaml_param_parser": {
+            "cmake-args": [ "-DBUILD_TESTING=OFF" ]
+        },
+        "rclcpp": {
+            "cmake-args": [ "-DBUILD_TESTING=OFF" ]
+        },
+        "rclcpp_action": {
+            "cmake-args": [ "-DBUILD_TESTING=OFF" ]
+        },
+        "rclcpp_lifecycle": {
+            "cmake-args": [ "-DBUILD_TESTING=OFF" ]
+        },
+        "rcutils": {
+            "cmake-args": [ "-DBUILD_TESTING=OFF" ]
+        },
+        "rosidl_typesupport_c": {
+            "cmake-args": [ "-DBUILD_TESTING=OFF" ]
+        },
+        "foonathan_memory_vendor": {
+            "cmake-args": [ "-DFOONATHAN_MEMORY_FORCE_VENDORED_BUILD=1" ]
+        }
+    }
+}
